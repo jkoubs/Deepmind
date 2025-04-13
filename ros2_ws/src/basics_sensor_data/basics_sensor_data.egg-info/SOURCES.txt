@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+basics_sensor_data/__init__.py
+basics_sensor_data/mona_lisa_approach.py
+basics_sensor_data.egg-info/PKG-INFO
+basics_sensor_data.egg-info/SOURCES.txt
+basics_sensor_data.egg-info/dependency_links.txt
+basics_sensor_data.egg-info/entry_points.txt
+basics_sensor_data.egg-info/requires.txt
+basics_sensor_data.egg-info/top_level.txt
+basics_sensor_data.egg-info/zip-safe
+resource/basics_sensor_data
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
