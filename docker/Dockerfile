@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
 
 COPY /ros2_ws/ /ros2_ws/
 # Install ultralytics for YOLOv8
-#RUN pip3 install ultralytics
+RUN pip3 install ultralytics
 # Update rosdep database and install dependencies
 RUN source /opt/ros/humble/setup.bash && \
     apt-get update --fix-missing && \
