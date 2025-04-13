@@ -11,6 +11,11 @@ RUN echo "export _colcon_cd_root=/opt/ros/humble/" >> ~/.bashrc
 # Setup colcon tab completion
 RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
 
+# Install required ROS 2 Humble control packages for Deepmind control
+RUN apt-get update && apt-get install -y \
+    ros-humble-ros2-control \
+    ros-humble-ros2-controllers \
+    ros-humble-gazebo-ros2-control
 
 COPY /ros2_ws/ /ros2_ws/
 # Install ultralytics for YOLOv8
