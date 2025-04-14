@@ -13,7 +13,7 @@ class YoloObjectDetection(Node):
         super().__init__('object_detection')
 
         # Load a pre-trained YOLOv8 object detection model
-        self.model = YOLO('~/ros2_ws/src/final_project/data/yolov8n.pt') 
+        self.model = YOLO('/ros2_ws/src/final_project/data/yolov8n.pt') 
         self.yolov8_inference = Yolov8Inference()
 
         self.img_sub = self.create_subscription(
@@ -50,6 +50,7 @@ class YoloObjectDetection(Node):
             and processes the detection results. The image with 
             annotated detections is also published for visualization """
         if not self.active:
+            self.get_logger().error("Object Detection not active...")
             return
 
         img = bridge.imgmsg_to_cv2(msg, "bgr8")

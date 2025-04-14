@@ -38,7 +38,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PoseResult.msg"
   "msg/SegmentationResult.msg"
   "msg/Yolov8Segmentation.msg"
-  DEPENDENCIES geometry_msgs std_msgs
+  "msg/ObjectCount.msg"
+  DEPENDENCIES geometry_msgs std_msgs 
 )
 
 
