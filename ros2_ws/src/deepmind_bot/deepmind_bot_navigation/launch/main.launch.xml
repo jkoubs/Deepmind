@@ -1,8 +1,0 @@
-<?xml version='1.0' ?>
-
-<launch>
-    <include file="$(find-pkg-share deepmind_bot_navigation)/launch/localization.launch.py"/>
-    
-    <include file="$(find-pkg-share deepmind_bot_navigation)/launch/pathplanner.launch.py"/>
-    
-</launch>
