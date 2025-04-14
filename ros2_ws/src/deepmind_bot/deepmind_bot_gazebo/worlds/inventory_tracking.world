@@ -1,0 +1,362 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.6">
+  <world name="default">
+
+     <scene>
+      <ambient>0.8 0.8 0.8 1.0</ambient>
+      <background>0 0 0</background>
+      <grid>false</grid>
+    </scene>
+
+  <gui>
+      <camera name="gui_camera">
+        <pose>0.865529 0.125622 1.71795 0 0.364 2.518</pose>
+      </camera>
+    </gui>
+
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://floor</uri>
+      <pose>0.002183 -0.581996 0.05 0 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://shelve</uri>
+      <pose>0.0 4.0 0 0 0 0</pose>
+    </include>
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%% ELECTRONICS SHELVE %%%%%%%%%%%%%%%%%%%%%%% -->
+
+<!--  Laptop  -->
+    <!-- <include>
+      <uri>model://laptop</uri>
+      <name>laptop_1</name>
+      <pose>0.397940 3.349899 0.520278 0 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://laptop</uri>
+      <name>laptop_2</name>
+      <pose>1.016112 3.349899 0.520278 0 0 0</pose>
+    </include> -->
+
+
+    <include>
+      <uri>model://laptop</uri>
+      <name>laptop_3</name>
+      <pose>2.062621 3.349899 0.520278 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://laptop</uri>
+      <name>laptop_4</name>
+      <pose>2.574236 3.349899 0.520278 0 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://laptop</uri>
+      <name>laptop_5</name>
+      <pose>0.397940 3.05274 0.123942 0 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://laptop</uri>
+      <name>laptop_6</name>
+      <pose>1.016112 3.05274 0.123942 0 0 0</pose>
+    </include> 
+
+    <include>
+      <uri>model://laptop</uri>
+      <name>laptop_7</name>
+      <pose>2.040844 3.05274 0.123942 0 0 0</pose>
+    </include> 
+
+    <include>
+      <uri>model://laptop</uri>
+      <name>laptop_8</name>
+      <pose>2.567354 3.05951 0.091985 0 0 0</pose>
+    </include> 
+<!--  Phone -->
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_1</name>
+      <pose>0.340504 2.741644 1.2853 0 -0 0.144797</pose>
+    </include>
+<!-- 
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_2</name>
+      <pose>0.570996 2.73876 1.2853 0 -0 0.013418</pose>
+    </include> -->
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_3</name>
+      <pose>0.827247 2.73876 1.2853 0 -0 -0.080728</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_4</name>
+      <pose>1.067209 2.73876 1.2853 0 -0 -0.176848</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_5</name>
+      <pose>1.902125 2.73876 1.2853 0 -0 0.132236</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_6</name>
+      <pose>2.111089 2.73876 1.2853 0 -0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_7</name>
+      <pose>2.383449 2.73876 1.2853 0 -0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_8</name>
+      <pose>2.643965 2.73876 1.2853 0 -0 0</pose>
+    </include>
+
+    <!-- <include>
+      <uri>model://phone</uri>
+      <name>phone_9</name>
+      <pose>0.274074 3.028773 0.903941 0 -0 0.084261</pose>
+    </include> -->
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_10</name>
+      <pose>0.570996 3.028773 0.903941 0 -0 0</pose>
+    </include>
+
+    <!-- <include>
+      <uri>model://phone</uri>
+      <name>phone_11</name>
+      <pose>0.827247 3.028773 0.903941 0 -0 0</pose>
+    </include> -->
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_12</name>
+      <pose>1.067209  3.028773 0.903941 0 -0 -0.098005</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_13</name>
+      <pose>1.808462 3.028773 0.903941 0 -0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_14</name>
+      <pose>2.111089 3.028773 0.903941 0 -0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_15</name>
+      <pose>2.383449 3.028773 0.903941 0 -0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_16</name>
+      <pose>2.643965 3.028773 0.903941 0 -0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://phone</uri>
+      <name>phone_misplaced</name>
+      <pose>2.235640 5.185982 0.937108 0 -0 3.106321</pose>
+    </include>
+<!-- %%%%%%%%%%%%%%%%%%%%%%% FOOD SHELVE %%%%%%%%%%%%%%%%%%%%%%% -->
+
+<!--  Hotdog  -->
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_1</name>
+      <pose>2.629168 5.143372 1.392989 -1.188705 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_2</name>
+      <pose>2.209243 5.143372 1.392989 -1.188705 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_3</name>
+      <pose>1.770554 5.143372 1.392989 -1.188705 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_4</name>
+      <pose>0.734828 5.143372 1.392989 -1.188705 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_5</name>
+      <pose>0.358395 5.160145 1.392989 -1.188705 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_6</name>
+      <pose>0.016705 5.160145 1.392989 -1.188705 0 0</pose>
+    </include>
+     
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_7</name>
+      <pose>2.629168 5.160145 0.986091 -1.188705 0 0</pose>
+    </include>
+
+
+    <!-- <include>
+      <uri>model://banana</uri>
+      <name>banana_8</name>
+      <pose>2.209243 5.160145 0.986091 -1.188705 0 0</pose>
+    </include> -->
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_9</name>
+      <pose>1.770554 5.160145 0.986091 -1.188705 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_10</name>
+      <pose>0.734828 5.160145 0.986091 -1.188705 0 0</pose>
+    </include>
+     
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_11</name>
+      <pose>0.358395 5.160145 0.986091 -1.188705 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://banana</uri>
+      <name>banana_12</name>
+      <pose>0.016705 5.160145 0.986091 -1.188705 0 0</pose>
+    </include>
+<!--  Pizza  -->
+
+    <include>
+      <uri>model://pizza</uri>
+      <name>pizza_1</name>
+      <pose>2.470080 4.916572 0.498616 -0.119152 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://pizza</uri>
+      <name>pizza_2</name>
+      <pose>1.727736 4.916572 0.498616 -0.119152 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://pizza</uri>
+      <name>pizza_3</name>
+      <pose>0.602924 4.916572 0.479504 -0.119152 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://pizza</uri>
+      <name>pizza_4</name>
+      <pose>-0.134404 4.916572 0.479504 -0.119152 0 0</pose>
+    </include>
+
+
+    <!-- <include>
+      <uri>model://pizza</uri>
+      <name>pizza_5</name>
+      <pose>2.473432 4.883417 0.099206 -0.119152 0 0</pose>
+    </include> -->
+
+
+    <include>
+      <uri>model://pizza</uri>
+      <name>pizza_6</name>
+      <pose>1.731341 4.883417 0.099206 -0.119152 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://pizza</uri>
+      <name>pizza_7</name>
+      <pose>0.601643 4.883417 0.099206 -0.119152 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://pizza</uri>
+      <name>pizza_8</name>
+      <pose>-0.127463 4.883417 0.099206 -0.119152 0 0</pose>
+    </include>
+<!--  Light  -->
+
+
+    <light name='user_point_light_0' type='point'>
+      <pose>0.30294 6 2 0 -0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.6</constant>
+        <linear>0.02</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+      <direction>0 0 0</direction>
+    </light>
+    
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+      <ros>
+        <namespace>/gazebo</namespace>
+      </ros>
+      <update_rate>5.0</update_rate>
+    </plugin>
+
+    
+
+  </world>
+</sdf>
+

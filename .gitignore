@@ -1,5 +1,5 @@
 # Ignore all .pyc files
 *.pyc
 
-# Ignore all .txt files
+# Ignore installs.txt
 installs.txt
